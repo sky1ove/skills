@@ -1,0 +1,4 @@
+interface:
+  display_name: "nbdev"
+  short_description: "Notebook-driven Python project workflows"
+  default_prompt: "Use $nbdev to create or maintain an nbdev project."
