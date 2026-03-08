@@ -77,6 +77,7 @@ theme:
   - custom.scss
 
 website:
+  favicon: favicon.ico # if not add, can't render the logo in navbar
   navbar:
     title: false
     logo: "logo.svg"
@@ -94,7 +95,7 @@ website:
       - section: Modules
         contents: "*.ipynb"
 
-metadata-files: [nbdev.yml] # remove sidebar.yml
+metadata-files: [nbdev.yml] # remove sidebar.yml so that sidebar will not show duplicate titles
 ```
 
 10. Create `nbs/custom.scss` with:
