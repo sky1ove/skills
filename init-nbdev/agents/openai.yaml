@@ -1,0 +1,4 @@
+interface:
+  display_name: "Init nbdev"
+  short_description: "Create and bootstrap a fresh nbdev GitHub repo"
+  default_prompt: "Use $init-nbdev to create a new nbdev GitHub repository from a folder name."
