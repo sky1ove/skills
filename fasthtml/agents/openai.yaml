@@ -1,0 +1,4 @@
+interface:
+  display_name: "FastHTML"
+  short_description: "FastHTML app patterns and workflows"
+  default_prompt: "Use $fasthtml to build or modify a FastHTML app."
