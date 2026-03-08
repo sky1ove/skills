@@ -58,8 +58,6 @@ nbdev-new
 <!-- nbdev-install-quarto --> # run this if successful, otherwise skip
 nbdev-install-hooks
 uv pip install -e .
-nbdev-clean && nbdev-export
-nbdev-prepare
 ```
 
 7. Update `pyproject.toml` under `[tool.nbdev]`:
@@ -174,7 +172,14 @@ span.menu-text {
 .navbar-container { max-width: 1282px; }
 ```
 
-12. Commit and push the generated scaffold:
+12. Run final prep commands:
+
+```bash
+nbdev-clean && nbdev-export
+nbdev-prepare
+```
+
+13. Commit and push the generated scaffold:
 
 ```bash
 git add .
